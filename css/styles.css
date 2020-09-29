@@ -77,7 +77,6 @@ footer {
 
 .left {
   float: left;
-  display: inline-block;
   margin: 0px;
   padding-left: 4.5%;
 }
@@ -85,7 +84,6 @@ footer {
 .right {
   float: right;
   text-decoration: none;
-  display: inline-block;
   margin-right: 5px;
 }
 
@@ -107,12 +105,12 @@ nav ul,
   display: none;
 }
 
-body{ 
-  background-color: rgb(243, 245, 247); 
+body {
+  background-color: rgb(243, 245, 247);
 }
 
-.portfolio{
-  background-color: #fff
+.portfolio {
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -198,13 +196,11 @@ body{
 
   h1 {
     float: left;
-    display: inline-block;
     margin-left: 5%;
   }
 
   nav ul {
     float: right;
-    display: inline-block;
     width: 50%;
   }
 
